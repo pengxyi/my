@@ -1,23 +1,29 @@
+</<!DOCTYPE html>
 <html>
 
 <head>
+  <meta charset="utf-8">
+  <title>注册</title>
+  <link rel="stylesheet" href="css/main.css">
   <style>
-    a {
+a {
       display: block;
       text-decoration: none;
       color: #000000;
-    }
+}
 .login-content {
   width: 320px;
   height: 350px;
   padding: 20px;
   margin: 0 auto;
-  border:.1px solid grey;
+  background-image: url("images/denglv-background.jpg");
+  background-repeat:no-repeat;
+  opacity: 0.7;
 }
 
-.denglu {
+.register-btn {
     display: block;
-    width: 320px;
+    width: 280px;
     height: 50px;
     margin: 0 auto;
     text-align: center;
@@ -27,8 +33,21 @@
     border-radius: 3px;
     background-color: #4bd768;
 }
-
-
+input{
+  height: 30px;
+}
+.register-title>span:first-child {
+    float: left;
+    font-size: 24px;
+    color: #212121;
+    padding-bottom: 10px;
+  }
+  .register-title>span {
+    font-size: 16px;
+    color: #999;
+    vertical-align: bottom;
+    float: right;
+}
 .forget-password {
     font-size: 16px;
     text-align: center;
@@ -40,47 +59,102 @@
 </head>
 
 <body>
-  <div class="login-content">
-    <p class="register-title clear-both">
-      <span><a href="index.html">已有账号请登录</a></span>
-      <span><a href="#">没有账号? 注册</a></span>
-    </p>
-    <div width="280px" align="center" 注册信息</div> </hl> <table text-align="center">
-      <tr>
-        <td width="100px" height="40px">
-          <div align="right">登录账号：</div>
-        </td>
-        <td width="160px;"><input type="text" placeholder="手机号或QQ号"></td>
-      </tr>
-      <tr>
-        <td>
-          <div align="right">密码：</div>
-        </td>
-        <td><input type="password"  placeholder="请输入密码"></td>
-      </tr>
-      <tr>
-        <td>
-          <div align="right">确认密码：</div>
-        </td>
-        <td><input type="password" placeholder="请再次输入密码"></td>
-      </tr>
-      <tr>
-        <td>
-          <div align="right">手机号：</div>
-        </td>
-        <td width="160px" height="40px"><input type="text" placeholder="请输入手机号"></td>
-      </tr>
-      <tr>
-        <td>
-          <div align="right">性别：</div>
-        </td>
-        <td><input type="radio" name="sex" checked="true" />男
-          <input type="radio" name="sex" />女</td>
-      </tr>
-      </table></br>
-      <span class="denglu"><a href="index.html">立即登录</a></span>
-      <p class="forget-password"><a href="#">忘记密码</a></p>
+  <header>
+    <div class="top"><img src="images/top.jpg" alt=""></div>
+    <nav>
+      <ul>
+        <li><a href="index.html">端午首页</a></li>
+        <li><a href="#">传统民俗活动</a>
+          <ul>
+            <li><a href="#">粽子</a></li>
+            <li><a href="#">划龙舟</a></li>
+            <li><a href="#">祭祀</a></li>
+            <li><a href="#">喝黄酒</a></li>
+            <li><a href="#">挂葛蒲</a></li>
+          </ul>
+        </li>
+        <li><a href="#">起源与传说</a>
+          <ul>
+            <li><a href="#">挂艾草传说</a></li>
+            <li><a href="#">插菖蒲艾草</a></li>
+            <li><a href="#">屈原的传说</a></li>
+            <li><a href="#">由来</a></li>
+          </ul>
+        </li>
+        <li><a href="#">各地习俗</a>
+          <ul>
+            <li><a href="#">福建</a></li>
+            <li><a href="#">广东</a></li>
+            <li><a href="#">四川</a></li>
+            <li><a href="#">甘肃</a></li>
+          </ul>
+        </li>
+        <li><a href="#">诗词欣赏</a>
+          <ul>
+            <li><a href="#">竞渡诗</a></li>
+            <li><a href="#">已酉端午</a></li>
+            <li><a href="#">五丝</a></li>
+            <li><a href="#">端午</a></li>
+            <li><a href="#">端午日</a></li>
+            <li><a href="#">浣溪沙</a></li>
+          </ul>
+        </li>
+        <li><a href="#">端午之旅</a>
+          <ul>
+            <li><a href="#">屈原故里</a></li>
+            <li><a href="#">西塞神舟会</a></li>
+            <li><a href="#">尼罗江</a></li>
+            <li><a href="#">伍子胥</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <div class="login-content">
+      <p class="register-title clear-both">
+        <span><a href="denglu.html">已有账号请登录</a></span>
+        <span><a href="zhuce.html">没有账号? 注册</a></span>
+      </p>
+      <div width="280px" align="center" 注册信息</div> </hl> <table text-align="center">
+        <tr>
+          <td width="100px" height="40px">
+            <div align="right">登录账号：</div>
+          </td>
+          <td width="160px;"><input type="text" placeholder="手机号或QQ号"></td>
+        </tr>
+        <tr>
+          <td>
+            <div align="right">密码：</div>
+          </td>
+          <td><input type="password" placeholder="请输入密码"></td>
+        </tr>
+        <tr>
+          <td>
+            <div align="right">确认密码：</div>
+          </td>
+          <td><input type="password" placeholder="请再次输入密码"></td>
+        </tr>
+        <tr>
+          <td>
+            <div align="right">手机号：</div>
+          </td>
+          <td width="160px" height="40px"><input type="text" placeholder="请输入手机号"></td>
+        </tr>
+        <tr>
+          <td>
+            <div align="right">性别：</div>
+          </td>
+          <td><input type="radio" name="sex" checked="true" />男
+            <input type="radio" name="sex" />女</td>
+        </tr>
+        </table></br>
+        <span class="register-btn"><a href="index.html">立即登录</a></span>
+        <p class="forget-password"><a href="#">忘记密码</a></p>
+      </div>
     </div>
+    <footer>
+      <p>一“粽”浓情，一“粽”乡愁</p>
+    </footer>
+  </header>
 </body>
 
 </html>

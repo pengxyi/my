@@ -33,13 +33,13 @@ header{
 
 nav {
   width: 980px;
-  height: 55px;
+  height: 56px;
   margin: 0px auto;
 }
 
 nav ul {
   width: 980px;
-  height: 50px;
+  height: 56px;
   margin: 0px auto;
   list-style: none;
   margin: 0;
@@ -78,6 +78,7 @@ nav ul li:hover ul {
 
 nav ul li ul li {
   width: 150px;
+  height: 56px;
   background-image: url("../images/daohang2.jpg");
 }
 
@@ -215,12 +216,13 @@ section {
   opacity: 0.8;
   background-repeat: no-repeat;
   float: right;
+  position:relative;
 }
 .lvyou-word{
   position:absolute;
   width: 200px;
-  right: 670px;
-  top: 1660px;
+  right: 15px;
+  top:220px;
   font-size: 16px;
   text-indent:2em;
   font-weight: bold;
@@ -242,6 +244,7 @@ section {
 }
 footer{
   width: 980px;
+  clear:both;
   height: 160px;
   margin: 0 auto;
 }
@@ -251,3 +254,52 @@ footer p{
   font-size: 26px;
   font-weight: bold;
 }
+
+
+
+/* xisu.html */
+
+.xisu-text{
+  width: 980px;
+  margin:0 auto;
+}
+.xisu-text ul{
+  list-style: none;
+  margin: 0 ;
+  padding: 0;
+}
+.xisu-text li{
+  width: 450px;
+  height: 410px;
+  padding: 20px;
+  float: left;
+}
+.xisu-text h3{
+  text-align:center;
+}
+.xisu-text ul li p{
+  padding-top: 10px;
+  width: 450px;
+  height: 130px;
+}
+.xisu-text li img {
+  margin-left: 40px;
+}
+.xisu-end{
+  width: 980px;
+  height: 311px;
+  background-image: url("../images/3.jpg");
+  opacity: 0.8;
+  background-repeat: no-repeat;
+  text-indent: 2em;
+  margin: 0 auto;
+  clear: both;
+}
+.xisu-end p{
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 30px;
+  font-size: 16px;
+  font-weight: bold;
+}
+/* xisu.html */
