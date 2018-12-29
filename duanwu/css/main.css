@@ -312,12 +312,27 @@ footer p{
       width: 980px;
       margin: 0 auto;
     }
+    .qiyuan-top{
+      width: 850px;
+      height: 220px;
+      margin: 0 auto;
+    }
+    .qiyuan-top p{
+      padding: 30px;
+      font-size: 22px;
+      font-weight:bold;
+      text-indent: 2em;
+    }
     video{
       margin-left: 10px;
       width: 960px;
       height: 544px;
       border: 3px solid #fff;
       border-radius: 30px;
+    }
+    .qiyuan-text h3,.qiyuan-text h4,.qiyuan-text p{
+      text-indent: 2em;
+      padding: 10px;
     }
 
 /* 起源 */
