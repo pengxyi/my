@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>注册</title>
+  <title>找回密码</title>
   <link rel="stylesheet" href="css/main.css">
   <link rel="shortcut icon" href="favicon.ico">
   <style>
@@ -14,7 +14,7 @@ a {
 }
 .login-content {
   width: 320px;
-  height: 350px;
+  height: 270px;
   padding: 20px;
   margin: 0 auto;
   background-image: url("images/denglv-background.jpg");
@@ -37,7 +37,11 @@ a {
 input{
   height: 30px;
 }
-.register-title span:first-child {
+h2{
+  text-align:center;
+  padding-bottom: 8px;
+}
+/* .register-title span:first-child {
     float: left;
     font-size: 24px;
     color: #212121;
@@ -50,14 +54,14 @@ input{
     line-height: 47px;
     vertical-align: bottom;
     float: right;
-}
-.forget-password {
+} */
+/* .forget-password {
     font-size: 16px;
     text-align: center;
     line-height: 16px;
     padding-top: 10px;
     padding-bottom: 30px;
-}
+} */
     </style>
 </head>
 
@@ -65,22 +69,17 @@ input{
   <header>
     <div class="top"><img src="images/top.jpg" alt=""></div>
     <div class="login-content">
-      <p class="register-title clear-both">
+      <h2>找回密码</h2>
+      <!-- <p class="register-title clear-both">
         <span><a href="denglu.html">已有账号请登录</a></span>
         <span><a href="zhuce.html">没有账号? 注册</a></span>
-      </p>
-      <div width="280px" align="center" 注册信息</div> </hl> <table text-align="center">
-        <tr>
-          <td width="100px" height="40px">
-            <div align="right">登录账号：</div>
-          </td>
-          <td width="160px;"><input type="text" placeholder="手机号或QQ号"></td>
-        </tr>
+      </p> -->
+      <div width="280px" align="center" 找回密码信息</div> </hl> <table text-align="center">
         <tr>
           <td>
-            <div align="right">密码：</div>
+            <div align="right">请设置新密码：</div>
           </td>
-          <td><input type="password" placeholder="请输入密码"></td>
+          <td><input type="password" placeholder="请输入新密码"></td>
         </tr>
         <tr>
           <td>
@@ -90,17 +89,18 @@ input{
         </tr>
         <tr>
           <td>
-            <div align="right">手机号：</div>
+            <div align="right">请输入手机号：</div>
           </td>
-          <td width="160px" height="40px"><input type="text" placeholder="请输入手机号"></td>
+          <td><input type="text" placeholder="请输入手机号"></td>
         </tr>
         <tr>
           <td>
-            <div align="right">性别：</div>
+            <button type="button">&nbsp;&nbsp;获取验证码：</button>
           </td>
-          <td><input type="radio" name="sex" checked="true" />男
-            <input type="radio" name="sex" />女</td>
+          <td><input type="text" placeholder="请输入验证码"></td>
         </tr>
+        <tr>
+        <tr>
         </table></br>
         <span class="register-btn"><a href="index.html">立即登录</a></span>
       </div>
