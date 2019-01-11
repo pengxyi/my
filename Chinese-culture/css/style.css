@@ -145,20 +145,26 @@ article{
 .jieri,.xiju{
   width: 496px;
   height: 390px;
-  border: 1px solid grey;
   float: left;
+  background-image: url("../images/index-background1.jpg");
+  opacity: 0.8;
+  background-repeat: no-repeat;
 }
 .sici,.hanyu{
   width: 496px;
   height: 390px;
   float: right;
-  border: 1px solid grey;
+  background-image: url("../images/index-background1.jpg");
+  opacity: 0.8;
+  background-repeat: no-repeat;
 }
 .gongyi{
   width: 1000px;
   height: 530px;
-  border: 1px solid grey;
   clear: both;
+  background-image: url("../images/index-background2.jpg");
+  opacity: 0.8;
+  background-repeat: no-repeat;
 }
  article h3{
    width: 100px;
